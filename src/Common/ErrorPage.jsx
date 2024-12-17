@@ -1,5 +1,6 @@
 import { Link, useRouteError } from "react-router-dom";
 import notFound from "../assets/notFound.json";
+import Lottie from "lottie-react";
 const ErrorPage = () => {
   const error = useRouteError();
   console.log(error);
